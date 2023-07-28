@@ -9,7 +9,7 @@ nav{
     border: 2px black solid;
     color: rgb(4, 46, 32);
     background: linear-gradient(to right, #d6b9f0 , rgb(131, 84, 193) , #09747a ); 
-    position: sticky;  
+    position: static;  
     font-family: "Tektur","Roboto";
 
 
@@ -70,11 +70,11 @@ footer{
     border-radius: 200px;
 }
 
-/* .main{
-display: inline-block;
-width: 65%;
+.main{
+/* display: inline; */
+width: 100%;
 
-} */
+}
 
 li a:link{
     text-decoration: none;
