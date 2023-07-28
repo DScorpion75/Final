@@ -1,29 +1,9 @@
 
-section{ 
-    text-align: center;
-    height: 120px;
-    border: 1px black solid;
-    color: rgb(4, 46, 32);
-background: cornflowerblue;
 
-
-}
-
-aside{
-    font-size: larger;
-    text-align: center;
-    height: 243px;
-    border: 1px black solid;
-    color: rgb(4, 46, 32);
-    background: cornflowerblue;
-    
-
-
-}
 
 nav{
     border-radius: 3px;
-    top: 10px;
+    top: 0px;
     text-align: center;
     height: 150px;
     border: 2px black solid;
@@ -37,47 +17,57 @@ nav{
 
 }
 nav a:hover{
-    background-color: rgb(255, 127, 223);height: 20px;
-    border: 2px black solid;
+    background-color: rgb(255, 255, 255);height: 20px;
+    border: 0px black solid;
+    border-radius: 2px;
+    
+   
+}
+
+section{ 
+    text-align: center;
+    height: 1100px;
+    border: 1px black solid;
+    color: rgb(4, 46, 32);
+background: cornflowerblue;
+font-family:"Roboto";
+
 }
 
 article{
     text-align: center;
-    height: 120px;
+    height: 800px;
     border: 1px black solid;
     color: rgb(4, 46, 32);
-    background: cornflowerblue;
+background: cornflowerblue;
+font-family: "Tektur","Roboto";
     
-
-
 }
 
 footer{ 
     text-align: center;
-    height: 2000px;
+    height: 200px;
     border: 1px black solid;
     color:rgb(4, 46, 32);
     background: cornflowerblue;
-    
-
-
-
+    font-family: "Tektur","Roboto";
+    position: relative;
+    bottom: 0px;
 }
+
 .flex-container{
-align-content: center;
-justify-content: center;
-column-gap: 50px;
-display: flex;
+    align-content: center;
+    justify-content: center;
+    column-gap: 50px;
+    display: flex;
 }
 
 .flex-container> div{
-background-color: cornflowerblue;
-margin: 10px;
-padding: 20px;
-border:solid 2px black;
-border-radius: 200px;
-
-
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 20px;
+    border:solid 2px black;
+    border-radius: 200px;
 }
 
 .main{
@@ -108,6 +98,7 @@ li a:link{
 li a:hover{
     background-color: rgb(255, 127, 223);height: 20px;
     border: 2px black solid;
+    border-radius: 300px;
     
 
 
